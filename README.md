@@ -31,7 +31,7 @@ This tutorial outlines the Use of Active Directory within Azure Virtual Machines
 <img src="https://i.imgur.com/iK7HpGD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 1: Create sample file shares with various permissions. Using the Domain Controller and Virtual Machine created in the 
+Step 1: Create sample file shares with various permissions. Using the Domain Controller and Virtual Machine created in the "Configuring On-premises Active Directory within Azure VMs" project, log into DC-1.  On the C:\ drive, create 4 folders: "read-access", "write-access", "no-access", and "accounting".  Set the following permissions (share the folder) for the "Domain Users" group: Set the folder "read-access" Domain users permissions to "Read".  Set the folder "write-access" Domain users permissions to "Read/Write".  And Finally, set the folder "no-access" Domain Admins permissions to "Read/Write".  (Skip the accounting folder for now.)
 </p>
 <br />
 
@@ -39,7 +39,7 @@ Step 1: Create sample file shares with various permissions. Using the Domain Con
 <img src="https://i.imgur.com/KNXTle0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2: Access the file shares as a normal user. 
+Step 2: Access the file shares as a normal user. On Client-1 navigate to the shared folder (start, run, \\dc-1) Try to access the folders you just created and see what you are able to read, write and access.
 </p>
 <br />
 
@@ -47,7 +47,7 @@ Step 2: Access the file shares as a normal user.
 <img src="https://i.imgur.com/5ecA4od.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 3: Create an "ACCOUNTANTS" Security Group and assign permissions.
+Step 3: Create an "ACCOUNTANTS" Security Group and assign permissions. Go back to DC-1 and create a security group called "ACCOUNTANTS".  On the accounting folder that was created earlier, set the permissions for the ACCOUNTANTS for "Read/Write".  Log out of Client-1 Log back in and check that you can access the accounting share in \\DC-1.  (I had to restart the VM on Microsoft Azure before the change of permission took place.)
 </p>
 <br />
 
