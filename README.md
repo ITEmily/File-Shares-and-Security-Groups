@@ -31,7 +31,7 @@ This tutorial outlines the Use of Active Directory within Azure Virtual Machines
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/HTro8P8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iK7HpGD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 1: 
@@ -39,7 +39,7 @@ Step 1:
 <br />
 
 <p>
-<img src="https://i.imgur.com/xxMIkIr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KNXTle0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 2:
@@ -47,7 +47,7 @@ Step 2:
 <br />
 
 <p>
-<img src="https://i.imgur.com/sh1nDTF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 3: 
@@ -55,37 +55,10 @@ Step 3:
 <br />
 
 <p>
-<img src="https://i.imgur.com/cbMk5r3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 4: 
 </p>
 <br />
-
-<p>
-<img src="https://i.imgur.com/xo2Z5de.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 5: 
-</p>
-<br />
-
-
-<p>
-<img src="https://i.imgur.com/kK3tIM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 6: 
-</p>
-<br />
-
-
-<p>
-<img src="https://i.imgur.com/uddYDcJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 7:
-</p>
-<br />
-
 
