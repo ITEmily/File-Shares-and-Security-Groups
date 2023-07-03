@@ -20,13 +20,10 @@ This tutorial outlines the Use of Active Directory within Azure Virtual Machines
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1: 
-- Step 2: 
-- Step 3: 
-- Step 4: 
-- Step 5: 
-- Step 6: 
-- Step 7:
+- Step 1: Create sample file shares with various permissions.
+- Step 2: Access the file shares as a normal user. 
+- Step 3: Create an "ACCOUNTANTS" Security Group and assign permissions.
+  
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -34,7 +31,7 @@ This tutorial outlines the Use of Active Directory within Azure Virtual Machines
 <img src="https://i.imgur.com/iK7HpGD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 1: 
+Step 1: Create sample file shares with various permissions. Using the Domain Controller and Virtual Machine created in the 
 </p>
 <br />
 
@@ -42,23 +39,15 @@ Step 1:
 <img src="https://i.imgur.com/KNXTle0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2:
+Step 2: Access the file shares as a normal user. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5ecA4od.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 3: 
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 4: 
+Step 3: Create an "ACCOUNTANTS" Security Group and assign permissions.
 </p>
 <br />
 
